@@ -1,8 +1,6 @@
-
-
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/counter.dart';
 import 'package:flutter_application_2/home_page.dart';
+import 'package:flutter_application_2/input_widget.dart';
 
 class MenuPage extends StatelessWidget {
   const MenuPage({super.key});
@@ -18,7 +16,11 @@ class MenuPage extends StatelessWidget {
             ElevatedButton(
               onPressed: (){Navigator.push(context, 
               MaterialPageRoute(builder: (context) => HomePage()));}, 
-              child: Text('Go Home Page'))
+              child: Text('Go Home Page')),
+            ElevatedButton(
+              onPressed: (){Navigator.push(context, 
+              MaterialPageRoute(builder: (context) => InputWidgetPage()));}, 
+              child: Text('Go InputWidget')),
           ],
         ),
       ),
