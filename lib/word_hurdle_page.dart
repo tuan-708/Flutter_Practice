@@ -65,10 +65,9 @@ class _WordHurdlePageState extends State<WordHurdlePage> {
                             child: Text('DELETE')),
                         ElevatedButton(
                             onPressed: () {
-                              // if(!provider.isAvalidWord){
-                              //   showMsg(context, 'Not a word in my dictionary.');
-                              //   return;
-                              // }
+                              if(!provider.isAvalidWord){
+                                showMsg(context, 'Not a word in my dictionary.');
+                              }
                               if (provider.shouldCheckForAnswer) {
                                 provider.checkAnswer();
                               }
