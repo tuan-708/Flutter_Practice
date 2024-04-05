@@ -39,6 +39,7 @@ dependencies:
   intl: any
   english_words: ^4.0.0
   flutter_easyloading: ^3.0.5
+  go_router:
 
 dev_dependencies:
   flutter_test:
