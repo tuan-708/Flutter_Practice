@@ -53,7 +53,7 @@ dependencies:
   firebase_messaging: 
   cloud_functions: 
   cached_network_image:
-  connectivity_plus: 
+  connectivity_plus:
   freezed_annotation: 
   json_annotation: 
 

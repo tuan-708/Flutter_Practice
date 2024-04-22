@@ -141,7 +141,7 @@ class _$_ImageModel implements _ImageModel {
   }
 
   @override
-  bool operator ==(dynamic other) {
+  bool operator == (dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$_ImageModel &&
